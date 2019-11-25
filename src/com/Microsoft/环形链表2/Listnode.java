@@ -17,21 +17,20 @@ class ListNode {
       }
 
     public static void main(String[] args) {
-        ListNode head=new ListNode(1);
-        LinkedList<ListNode> stack=new LinkedList<ListNode>();
-        if(head==null)return null;
-        while (head.next!=null){
-            for (ListNode li:stack
-            ) {
-                if(li==head)return li;
-            }
-
-            stack.offer(head);
-            head=head.next;
-        }
-
-        return null;
+//        ListNode head=new ListNode(1);
+//        LinkedList<ListNode> stack=new LinkedList<ListNode>();
+//        if(head==null)return null;
+//        while (head.next!=null){
+//            for (ListNode li:stack
+//            ) {
+//                if(li==head)return li;
+//            }
+//
+//            stack.offer(head);
+//            head=head.next;
+//        }
+//
+//        return null;
     }
 
     }
-  }

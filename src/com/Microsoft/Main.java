@@ -5,8 +5,9 @@ import java.util.Stack;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-
-        int[] j;
+	String s1="hello";
+	String s2=s1;
+	s1="xxx";
+        System.out.println(s2);
     }
 }
