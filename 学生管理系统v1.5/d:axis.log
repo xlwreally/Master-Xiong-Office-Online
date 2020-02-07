@@ -1,0 +1,114 @@
+2020-01-23 15:51:34,086 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 15:51:34,332 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:51:34,332 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:51:34,332 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:51:34,332 246    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:51:34,371 285    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-23 15:51:34,924 838    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 607932305.
+2020-01-23 15:51:34,925 839    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@243c4f91]
+2020-01-23 15:51:34,927 841    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-23 15:51:34,973 887    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-23 15:51:35,004 918    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-23 15:51:35,006 920    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@243c4f91]
+2020-01-23 15:51:35,007 921    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@243c4f91]
+2020-01-23 15:51:35,007 921    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 607932305 to pool.
+2020-01-23 15:54:52,517 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-23 15:54:52,677 160    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:54:52,677 160    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:54:52,678 161    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:54:52,678 161    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-23 15:54:52,720 203    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-23 15:54:53,277 760    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1998767043.
+2020-01-23 15:54:53,277 760    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7722c3c3]
+2020-01-23 15:54:53,280 763    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-23 15:54:53,309 792    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-23 15:54:53,351 834    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-23 15:54:53,353 836    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7722c3c3]
+2020-01-23 15:54:53,354 837    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7722c3c3]
+2020-01-23 15:54:53,354 837    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1998767043 to pool.
+2020-01-29 10:56:44,837 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 10:56:45,148 311    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:45,149 312    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:45,149 312    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:45,150 313    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:45,207 370    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 10:56:45,785 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 10:56:46,014 229    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:46,014 229    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:46,014 229    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:46,014 229    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:56:46,070 285    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 10:57:08,832 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 10:57:08,950 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:08,950 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:08,950 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:08,950 118    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:08,980 148    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 10:57:09,397 565    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 898694235.
+2020-01-29 10:57:09,397 565    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2020-01-29 10:57:09,408 576    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-29 10:57:09,438 606    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-29 10:57:09,478 646    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-29 10:57:09,484 652    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2020-01-29 10:57:09,485 653    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2020-01-29 10:57:09,485 653    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 898694235 to pool.
+2020-01-29 10:57:32,952 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 10:57:33,063 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:33,063 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:33,063 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:33,063 111    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 10:57:33,089 137    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 10:57:33,527 575    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 898694235.
+2020-01-29 10:57:33,528 576    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2020-01-29 10:57:33,545 593    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-29 10:57:33,592 640    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-29 10:57:33,659 707    [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-29 10:57:33,672 720    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2020-01-29 10:57:33,674 722    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@3590fc5b]
+2020-01-29 10:57:33,676 724    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 898694235 to pool.
+2020-01-29 11:23:25,829 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 11:23:26,115 286    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:26,115 286    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:26,116 287    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:26,116 287    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:37,515 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 11:23:37,704 189    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:37,704 189    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:37,704 189    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:23:37,704 189    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:25:13,689 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 11:25:13,796 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:25:13,796 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:25:13,796 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:25:13,796 107    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:25:21,570 7881   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 11:25:21,919 8230   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1905485420.
+2020-01-29 11:25:21,919 8230   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7193666c]
+2020-01-29 11:25:21,920 8231   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-29 11:25:21,948 8259   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-29 11:25:21,966 8277   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-29 11:27:55,035 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 11:27:55,158 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:27:55,158 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:27:55,158 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:27:55,158 123    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:27:56,235 1200   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 11:27:56,597 1562   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1905485420.
+2020-01-29 11:27:56,597 1562   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7193666c]
+2020-01-29 11:27:56,599 1564   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-29 11:27:56,638 1603   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-29 11:27:56,665 1630   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-29 11:29:27,994 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-01-29 11:29:28,129 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:29:28,129 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:29:28,129 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:29:28,129 135    [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-01-29 11:29:30,202 2208   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-01-29 11:29:30,590 2596   [           main] DEBUG source.pooled.PooledDataSource  - Created connection 1905485420.
+2020-01-29 11:29:30,591 2597   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7193666c]
+2020-01-29 11:29:30,592 2598   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==>  Preparing: select * from stu 
+2020-01-29 11:29:30,621 2627   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - ==> Parameters: 
+2020-01-29 11:29:30,639 2645   [           main] DEBUG crosoft.dao.IPersonDao.findAll  - <==      Total: 4
+2020-01-29 11:31:37,041 129047 [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7193666c]
+2020-01-29 11:31:37,042 129048 [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@7193666c]
+2020-01-29 11:31:37,042 129048 [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1905485420 to pool.
