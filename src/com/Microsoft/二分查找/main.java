@@ -13,13 +13,7 @@ public class main {
         System.out.println(search(new int[]{1,2},2));
     }
 
-    public  static int search(int[] nums, int target) {
-        StringBuffer s=new StringBuffer();
-        for (int tmp:nums
-             ) {
-            s.append(tmp);
-        }
-        return s.indexOf(Integer.toString(target));
+    public static int search(int[] nums, int target) {
         if(nums.length==1&&nums[0]!=target)return -1;
         int p= nums.length/2+1;
         int tmp=nums.length+1;
