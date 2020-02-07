@@ -11,6 +11,15 @@ import java.util.List;
  * @date 2020/1/22 16:45
  */
 public interface IPersonDao {
-        @Select("select * from stu")
+        /**
+         * 查找所有用户
+         * @return
+         */
+        @Select("select * from stu ")
         List<Person> findAll();
+       Boolean add(Person a) ;
+       Boolean remove(Person a);
+       Boolean change(Person a);
+        List<Person> getOne(String s);
+
 }
