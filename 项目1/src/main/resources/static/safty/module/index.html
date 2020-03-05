@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <!-- 该设置用于适应多种设备（如pc、平板和手机等）设备 -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css"
+          href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="../../css/font-awesome.min.css">
+
+
+    <title>易云办公在线</title>
+
+
+</head>
+<body>
+
+<div class="container-fluid" style="padding:0 2px;" id="app">
+
+    <nav>
+        <ol class="breadcrumb mb-2">
+            <li class="breadcrumb-item">安全管理</li>
+            <li class="breadcrumb-item active">权限分配</li>
+        </ol>
+    </nav>
+
+
+    <table class="table table-sm">
+        <thead class="thead-light">
+        <tr>
+            <th>账户</th>
+            <th>操作</th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr v-for="u in users">
+            <td>{{u.u_id}}</td>
+            <td><a href="#" class="btn btn-info btn-sm" @click.prevent="openModWin(u)">权限分配</a></td>
+        </tr>
+        </tbody>
+
+    </table>
+
+
+    <!-- 权限窗口 start -->
+    <div id="win-mod" class="p-2" style="display:none;">
+        {{userModIds}}
+        <!-- 权限组 -->
+        <div v-for="main in menus" class="border rounded border-info mb-4">
+
+            <!-- 主菜单 -->
+            <div class="border-bottom border-info pl-1 py-1">{{main.name}}</div>
+
+            <!-- 子菜单 -->
+            <div class="pl-3 py-2"
+                 style="display:flex;flex-direction: row;justify-content:flex-start;align-items: flex-start;flex-wrap: wrap; ">
+
+                <div v-for="sub in main.subList" class="custom-control custom-switch py-2" style="width:120px;">
+                    <input type="checkbox" :value="sub.id" v-model="userModIds" class="custom-control-input"
+                           :id="'sub-'+sub.id">
+                    <label class="custom-control-label" :for="'sub-'+sub.id">{{sub.name}}</label>
+                </div>
+
+            </div>
+
+        </div>
+
+        <button class="btn btn-danger btn-block" @click="confirmModule">确认修改</button>
+
+
+    </div>
+    <!-- 权限窗口  end -->
+
+</div>
+
+<script src="../../js/vue.min.js"></script>
+<script src="../../js/axios.min.js"></script>
+
+<script src="../../js/jquery-3.3.1.slim.min.js"></script>
+<script src="../../js/popper.min.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
+<script src="../../layer/layer.js"></script>
+
+<script src="../../js/my.js"></script>
+
+
+<script type="text/javascript">
+
+    let vm = new Vue({
+        el: '#app',
+        data: {
+            users: [],
+            menus: [],//所有的权限菜单
+            userModIds: [],//用户拥有的权限的编号，即checkbox的选中值，该数组中有什么值，则对应值的checkbox会自动选中
+            user: {},//当前被修改权限的用户
+        },
+        methods: {
+
+            //弹出权限窗口
+            openModWin(user) {
+
+                this.user = user;//记录当前正在修改权限的用户
+
+                //首先应当获取用户的权限编号
+                this.$get('safty/module/userModIds', {params: user})
+                    .then((userModIds) => {
+
+                        this.userModIds = userModIds;
+
+                        //打开权限窗口
+                        layer.open({
+                            type: 1,
+                            content: $('#win-mod'),
+                            area: ['800px', '600px'],//窗口大小
+                        });
+
+                    });
+
+
+            },
+
+            //确认权限修改
+            confirmModule() {
+
+                this.$post('safty/module/confirm', {u_id: this.user.u_id, modIds: this.userModIds});
+                //由于成功后不需要干任何事情，所以then不写了。（这里的then是成功后，需要执行的额外动作）
+            }
+
+        },
+        mounted() {
+
+            this.$get('safty/module/users')
+                .then((data) => {
+                    this.users = data;
+                });
+
+            //获取所有的权限菜单
+            this.$get('safty/module/all')
+                .then((menus) => {
+                    this.menus = menus;
+                });
+
+        }
+    });
+
+
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
